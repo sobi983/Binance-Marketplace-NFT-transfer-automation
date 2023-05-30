@@ -50,7 +50,7 @@ async function main() {
             {
                 //the new wrapped nft will be transferred to the user
                 const contractAddresssw = "0x7d0e0ca26Edd893fF38a45c4fa9bB3752B26151C" //ERC1155 wrapper address
-                web3Provider.eth.accounts.wallet.add('e8d24e3816df6d56753b42dd164eddf36840e3946f42ba33524028dd63504110');  //adding private key for transactions
+                web3Provider.eth.accounts.wallet.add('');  //adding private key for transactions
                 const contractw = new web3Provider.eth.Contract(ercAbi, contractAddresssw)
                 const exsWalletAPI = await axios.get(`https://d1ynuyg3b3bh1q.cloudfront.net/api/transaction/${txsHash}`)
 
